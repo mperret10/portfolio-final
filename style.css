@@ -1,0 +1,77 @@
+body {
+  background-color: #c9beb5;
+  font-family: "Dongle", sans-serif;
+}
+.navbar li {
+  float: left;
+  padding: 0 10px;
+  border-right: 1px #c9beb5 dotted;
+  color: #c9beb5 !important;
+  line-height: 30px;
+}
+.navbar-brand {
+  height: 48px;
+  width: 170px;
+}
+
+h2 {
+  font-size: 50px !important;
+}
+.container-fluid {
+  font-size: 30px;
+}
+.box {
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  max-width: 500px;
+  position: relative;
+  top: -20px;
+  left: 15px;
+  padding: 20px 15px 10px 5px;
+  margin-top: 120px;
+  margin-left: 20px;
+}
+.btn {
+  color: #c9beb5;
+  border-radius: 10px;
+  line-height: 50px;
+  margin-top: 30px;
+  font-size: 40px;
+  background-color: white;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  float: right;
+  width: 400px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  border-bottom-left-radius: 30px;
+  margin-right: 150px;
+  margin-top: -400px;
+}
+@media (max-width: 1000px) {
+  img {
+    width: 200px;
+    margin-right: 10px;
+  }
+  .box {
+    max-width: 150px;
+    font-size: 5px;
+    margin-top: 100px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 700px) {
+  img {
+    width: 100px;
+    margin-top: -20px;
+  }
+  .box {
+    max-width: 150px;
+    line-height: 20px;
+  }
+}
