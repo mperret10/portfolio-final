@@ -89,7 +89,7 @@ p {
   background-color: white;
   display: block;
   margin: 50px auto;
-  padding: 20px 20px 30px 20px;
+  padding: 10px 20px 10px 20px;
   margin-left: 150px;
   margin-right: 150px;
   text-align: center;
@@ -97,7 +97,8 @@ p {
   color: var(--branding-color);
 }
 .contact-info,
-.shecodes-info {
+.shecodes-info,
+.github-repositories {
   color: var(--branding-color);
   margin-top: 30px;
   font-size: 20px;
