@@ -1,6 +1,6 @@
 :root {
   --branding-color: #c9beb5;
-  --default-font-family: "Dongle", sans-serif;
+  --default-font-family: "Sofia Sans Condensed", sans-serif;
 }
 
 body {
@@ -15,7 +15,8 @@ body {
 }
 
 h2 {
-  font-size: 50px !important;
+  font-size: 35px !important;
+  line-height: 230px !important;
 }
 
 .container-fluid {
@@ -24,20 +25,18 @@ h2 {
 .box {
   color: white;
   text-align: center;
-  line-height: 100px;
   max-width: 500px;
   position: relative;
   top: -20px;
   left: 15px;
   padding: 20px 15px 10px 5px;
-  margin-top: 120px;
+  margin-top: 110px;
   margin-left: 20px;
 }
 .btn {
   color: var(--branding-color);
   border-radius: 10px;
   line-height: 50px;
-  margin-top: 30px;
   font-size: 40px;
   background-color: white;
 }
@@ -52,7 +51,7 @@ h2 {
   border-bottom-right-radius: 150px;
   border-bottom-left-radius: 30px;
   margin-right: 150px;
-  margin-top: -400px;
+  margin-top: -450px;
 }
 @media (max-width: 1000px) {
   img {
@@ -97,7 +96,8 @@ p {
   font-size: 35px;
   color: var(--branding-color);
 }
-.contact-info {
+.contact-info,
+.shecodes-info {
   color: var(--branding-color);
   margin-top: 30px;
   font-size: 20px;
@@ -126,7 +126,7 @@ h1 {
   visibility: hidden;
   opacity: 0.3;
   width: max-content;
-  font-size: 40px;
+  font-size: 30px;
   background-color: white;
   color: var(--branding-color);
   text-align: center;
