@@ -144,3 +144,29 @@ h1 {
   opacity: 1;
   visibility: visible;
 }
+footer {
+  background-color: white;
+  display: block;
+  position: static;
+  margin: 50px 10px 10px 20px;
+  padding: 15px 20px;
+}
+footer .social-links a {
+  margin: 10px 20px;
+  color: #a89585;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 25px;
+}
+.fa-github:before {
+  content: "\f09b";
+}
+.fa-instagram:before {
+  content: "\f16d";
+}
+.fa-linkedin:before {
+  content: "\f099";
+}
+.fa {
+  font-weight: 400;
+}
