@@ -1,22 +1,23 @@
+:root {
+  --branding-color: #c9beb5;
+  --default-font-family: "Dongle", sans-serif;
+}
+
 body {
-  background-color: #c9beb5;
-  font-family: "Dongle", sans-serif;
+  background-color: var(--branding-color);
+  font-family: var(--default-font-family);
 }
 .navbar li {
   float: left;
   padding: 0 10px;
   border-right: 1px #c9beb5 dotted;
-  color: #c9beb5 !important;
   line-height: 30px;
-}
-.navbar-brand {
-  height: 48px;
-  width: 170px;
 }
 
 h2 {
   font-size: 50px !important;
 }
+
 .container-fluid {
   font-size: 30px;
 }
@@ -33,7 +34,7 @@ h2 {
   margin-left: 20px;
 }
 .btn {
-  color: #c9beb5;
+  color: var(--branding-color);
   border-radius: 10px;
   line-height: 50px;
   margin-top: 30px;
@@ -74,4 +75,34 @@ img {
     max-width: 150px;
     line-height: 20px;
   }
+}
+h3 {
+  font-size: 40px !important;
+}
+h3,
+p {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin: 20px 50px;
+}
+.box-2 {
+  background-color: white;
+  display: block;
+  margin: 50px auto;
+  padding: 20px 20px 30px 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  font-size: 35px;
+  color: var(--branding-color);
+}
+.contact-info {
+  color: var(--branding-color);
+  margin-top: 30px;
+  font-size: 20px;
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
 }
