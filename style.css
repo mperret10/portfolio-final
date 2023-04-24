@@ -26,12 +26,10 @@ h2 {
   color: white;
   text-align: center;
   max-width: 500px;
-  position: flex;
+  position: relative;
   top: -20px;
-  left: 15px;
   padding: 20px 15px 10px 5px;
   margin-top: 110px;
-  margin-left: 20px;
 }
 .btn {
   color: var(--branding-color);
@@ -50,34 +48,10 @@ h2 {
   border-top-left-radius: 150px;
   border-bottom-right-radius: 150px;
   border-bottom-left-radius: 30px;
-  margin-right: 150px;
+  margin-right: 60px;
   margin-top: -400px;
 }
-@media (max-width: 1000px) {
-  img {
-    width: 200px;
-    margin-right: 10px;
-  }
-  .box {
-    max-width: 150px;
-    margin-top: 100px;
-    margin-left: 10px;
-    line-height: 15px;
-  }
-}
-@media (max-width: 700px) {
-  img {
-    width: 100px;
-    margin-top: -20px;
-  }
-  .box {
-    max-width: 150px;
-    line-height: 20px;
-  }
-  h2 {
-    line-height: 50px !important;
-  }
-}
+
 h3 {
   font-size: 38px !important;
   font-family: "Water Brush", cursive;
@@ -174,4 +148,29 @@ footer .social-links a {
 }
 .fa {
   font-weight: 400;
+}
+@media (max-width: 900px) {
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+  img {
+    width: 80px;
+    margin-right: 50px;
+  }
+  .box {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  footer {
+    position: fixed;
+    margin-bottom: 5px;
+    display: block;
+  }
 }
