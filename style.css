@@ -155,6 +155,11 @@ footer {
   font-weight: 400;
 }
 @media (max-width: 900px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   .content {
     text-align: center;
     padding: 0;
@@ -165,8 +170,8 @@ footer {
     text-align: center;
   }
   img {
-    max-width: 60% !important;
-    margin-top: 100px !important;
+    max-width: 50% !important;
+    margin-top: 10px !important;
   }
   h1,
   h2,
@@ -174,5 +179,18 @@ footer {
     font-size: 15px !important;
     line-height: 30px !important;
     text-align: center !important ;
+    margin-top: 50px;
+    margin-left: 5px !important;
+  }
+  .box {
+    margin-top: 30px !important;
+  }
+  .box-2 {
+    max-width: fit-content;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .box-3 {
+    line-height: 15px !important;
   }
 }
